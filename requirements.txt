@@ -2,4 +2,3 @@ flash
 joblib
 pandas
 numpy
-sklearn
