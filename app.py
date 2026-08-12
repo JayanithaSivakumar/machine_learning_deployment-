@@ -4,12 +4,6 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
-encoder = LabelEncoder()
-
-# Fit using your original training data
-encoder.fit(your_training_data)
-
-joblib.dump(encoder, "label_encoder.joblib")
 
 # --- Load the trained model and label encoders ---
 try:
